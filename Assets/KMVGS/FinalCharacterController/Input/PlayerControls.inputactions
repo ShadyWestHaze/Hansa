@@ -22,6 +22,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "bad6a089-75b9-4173-a698-f5fcc3820ffc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch Camera",
+                    "type": "Button",
+                    "id": "b38d4edb-0dcb-49f9-92e6-0b9c1bfab6b9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -200,6 +218,28 @@
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "dad10a24-53f0-44da-9b5d-d283765b33a8",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f0c31fb-2a4b-41d6-816d-d0f39f19f9c5",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
