@@ -71,14 +71,7 @@ ExportedObj/
 # For JetBrains Rider specific files
 /[Aa]ssets/Plugins/Editor/JetBrains*
 
-# Ensure Unity is linking the correct scene and prefab assets by tracking .meta files
-*.meta
 
 # Ignore compiled files or temporary files from external plugins
 .vsconfig
 
-# Keep track of Unity scene, prefab, material, and script files
-Assets/**/*.prefab
-Assets/**/*.unity
-Assets/**/*.mat
-Assets/**/*.cs

@@ -33,9 +33,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Switch Camera",
+                    "name": "SwitchCamera",
                     "type": "Button",
-                    "id": "b38d4edb-0dcb-49f9-92e6-0b9c1bfab6b9",
+                    "id": "0f8daa6f-a629-411e-adc2-60996ef9af8a",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -232,12 +232,12 @@
                 },
                 {
                     "name": "",
-                    "id": "1f0c31fb-2a4b-41d6-816d-d0f39f19f9c5",
+                    "id": "6d524372-90b7-4dc8-9754-cb130a82667f",
                     "path": "<Keyboard>/v",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Switch Camera",
+                    "action": "SwitchCamera",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
