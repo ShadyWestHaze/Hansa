@@ -1,5 +1,12 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 
+# Force-track critical Unity files (override ignores)
+!Assets/**/*.unity
+!Assets/**/*.prefab
+!Assets/**/*.mat
+!Assets/**/*.cs
+!Assets/**/*.meta  # <-- Ensures ALL .meta files are tracked
+
 # Unity Generated Files
 [Ll]ibrary/
 [Tt]emp/
@@ -59,10 +66,6 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
 *.pdb
 *.mdb
 *.opendb
@@ -71,14 +74,7 @@ ExportedObj/
 # For JetBrains Rider specific files
 /[Aa]ssets/Plugins/Editor/JetBrains*
 
-# Ensure Unity is linking the correct scene and prefab assets by tracking .meta files
-*.meta
 
 # Ignore compiled files or temporary files from external plugins
 .vsconfig
 
-# Keep track of Unity scene, prefab, material, and script files
-Assets/**/*.prefab
-Assets/**/*.unity
-Assets/**/*.mat
-Assets/**/*.cs
